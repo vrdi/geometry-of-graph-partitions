@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+data_path_shp:  "./IA_counties/IA_counties.shp"
+# Location / file name to save partitions as json
+partitions_path : './Data/iowa_10_1_test.json'
+#Election data
+num_elections : 4
+
+election_names : ["PRES00","PRES04","PRES08","PRES12"]
+election_columns : [["PRES00D", "PRES00R"],["PRES04D", "PRES04R"],["PRES08D", "PRES08R"],["PRES12D","PRES12R"]]
+
+#number of districts
+num_dist: 4
+
+# CHAIN
+num_steps : 1
+interval : 1
+#choose "recom" or "flip"
+MC_type : "recom"
+#population constraint tolerance
+pop_tol : 0.02

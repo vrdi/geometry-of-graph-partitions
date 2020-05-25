@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-with open("./README.md") as f:
+with open("./README.rst") as f:
     long_description = f.read()
 
 setup(
@@ -11,10 +11,10 @@ setup(
     maintainer="Parker J. Rule",
     maintainer_email="parker.rule@tufts.edu",
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     url="https://github.com/vrdi/geometry-of-graph-partitions",
     packages=['wasserplan'],
-    version='0.1.2',
+    version='0.1.3',
     install_requires=['gerrychain', 'cvxpy'],
     classifiers=[
         "Programming Language :: Python :: 3.6",

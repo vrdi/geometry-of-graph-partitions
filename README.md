@@ -3,7 +3,7 @@
 This repository contains source code and data for the experiments in our paper ["Geometry of Graph Partitions via Optimal Transport"](https://arxiv.org/abs/1910.09618) (to appear in SISC). In the paper, we develop an optimal transport-based metric to measure the distance between graph partitions and apply the metric to problems in redistricting. This repository focuses exclusively on these redistricting applications.
 
 ## Wasserplan
-`wasserplan` is a small Python library that uses [CVXPY](https://www.cvxpy.org/) to compute pairwise distances between [GerryChain] (https://github.com/mggg/gerrychain) districting plans. It is [available on PyPI](https://pypi.org/project/wasserplan/).
+`wasserplan` is a small Python library that uses [CVXPY](https://www.cvxpy.org/) to compute pairwise distances between [GerryChain](https://github.com/mggg/gerrychain) districting plans. It is [available on PyPI](https://pypi.org/project/wasserplan/).
 
 ## Experiments
 In our paper, we examine several use cases for our metric using state geographies.

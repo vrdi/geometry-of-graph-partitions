@@ -14,7 +14,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/vrdi/geometry-of-graph-partitions",
     packages=['wasserplan'],
-    version='0.1.1',
+    version='0.1.2',
     install_requires=['gerrychain', 'cvxpy'],
     classifiers=[
         "Programming Language :: Python :: 3.6",
